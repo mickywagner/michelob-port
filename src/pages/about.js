@@ -15,9 +15,10 @@ const SecondPage = () => (
     <SEO title="Page two" />
     <div className="about">
       <div className="me-photos">
-        <img src={stones} alt="At the Great Salt Lake"></img>
-        <img src={snapshot} alt="Close up taking photos"></img>
-        <img src={waterfalls} alt="Michaela by Japanese Waterfalls"></img>
+        <img src={stones} alt="Watching the sunset at the Great Salt Lake in Utah"></img>
+        <img src={snapshot} alt="Michaela taking a photo in Madrid, Spain"></img>
+        <img src={waterfalls} alt="Michaela and Mitch at Shiraito Falls in Fuji Hakone Izu National Park"
+        ></img>
       </div>
       <div className="bio">
         <h1>Hi! I'm Michaela</h1>
