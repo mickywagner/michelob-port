@@ -33,11 +33,27 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer style={{
-          marginTop: `2rem`
+          background:  `rgb(41, 41, 41)`,
+          color: `white`,
+          display: `flex`,
+          fontSize: `0.5rem`,
+          alignItems: `center`,
+          paddingLeft: `20px`
         }}>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <p style={{
+            padding: 0,
+            margin: 0,
+          }}
+          
+          >Michaela Wagner © Built with 
+          {`  `}
+          {new Date().getFullYear()}
+          {`  `}
+          <a href="https://www.gatsbyjs.com"
+            style={{color: `white`}}
+          >Gatsby</a>
+          </p>
+          
         </footer>
       </div>
     </>
