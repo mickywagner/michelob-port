@@ -1,6 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import waterfalls from "../images/waterfalls.jpg"
+import snapshot from "../images/me.jpeg"
+import stones from "../images/IMG_8909.jpg"
+
 import Image from "../components/Image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -10,7 +14,11 @@ const SecondPage = () => (
   <Layout>
     <SEO title="Page two" />
     <div className="about">
-      <div className="me-photos"></div>
+      <div className="me-photos">
+        <img src={stones} alt="At the Great Salt Lake"></img>
+        <img src={snapshot} alt="Close up taking photos"></img>
+        <img src={waterfalls} alt="Michaela by Japanese Waterfalls"></img>
+      </div>
       <div className="bio">
         <h1>Hi! I'm Michaela</h1>
         <p>
@@ -43,56 +51,55 @@ const SecondPage = () => (
 
         <h2>Skills and Experiences</h2>
         <ul className="skills">
-            <li>Photography/Vidoegraphy</li>
-            <li>Adobe Photoshop</li>
-            <li>Adobe Lightroom</li>
-            <li>Adobe Premiere</li>
-            <li>Avid Media Composer</li>
-            <li>Canon DSLR Cameras</li>
-            <li>HTML, CSS, Javascript</li>
-            <li>Writing, Blogging</li>
-            <li>Social Media</li>
-            <li>Organized</li>
-            <li>Self-starter/independent</li>
-            <li>Content-Management</li>
+          <li>Photography/Vidoegraphy</li>
+          <li>Adobe Photoshop</li>
+          <li>Adobe Lightroom</li>
+          <li>Adobe Premiere</li>
+          <li>Avid Media Composer</li>
+          <li>Canon DSLR Cameras</li>
+          <li>HTML, CSS, Javascript</li>
+          <li>Writing, Blogging</li>
+          <li>Social Media</li>
+          <li>Organized</li>
+          <li>Self-starter/independent</li>
+          <li>Content-Management</li>
         </ul>
 
         <p>
-            Majored in Film Production at University of Southern California.
-            Though my life took a different direction photographhy and
-            videography are still something I truly love and I try to
-            incorporate them into my travels.
-          </p>
+          Majored in Film Production at University of Southern California.
+          Though my life took a different direction photographhy and videography
+          are still something I truly love and I try to incorporate them into my
+          travels.
+        </p>
 
-          <p>
-            Obssessed with Lord of the Rings since the age of 10, I ditched
-            school for a year to get a job on The Hobbit in New Zealand. They
-            approved of my Elvish script, but sadly, production was halted when
-            the director fell ill. So I bought a very low-key camper van and
-            tripped around New Zealand before making my way back to school via
-            Southeast Asia and Europe.
-          </p>
-          <p>
-            After graduating I spent a few months in Brazil teaching English.
-            From there I hitchiked through Boliva, Peru, Ecuador, Colombia,
-            Venezuela, Chile, and Argentina before returning to the US. But I
-            liked it so much I came back for round 2 during the 2014 World Cup
-            and stayed about a year checking out the Brazilian coast, spending 2
-            months on friend's sailboat in Panama, trekking through the Amazon,
-            and visting some out of this world locations like Chapada Diamantina
-            and Lençois Maranhenses.
-          </p>
-          <p>
-            Worked for three years as the Digital Content Editor of Park City
-            Magazine, specifically writing tourism-related articles taking
-            photos, and creating videos about Park City, Utah and further afield
-            in Utah. Check out some of that work{" "}
-            <a href="https://www.parkcitymag.com/search?query=michaela+wagner">
-              here
-            </a>
-            .
-          </p>
-       
+        <p>
+          Obssessed with Lord of the Rings since the age of 10, I ditched school
+          for a year to get a job on The Hobbit in New Zealand. They approved of
+          my Elvish script, but sadly, production was halted when the director
+          fell ill. So I bought a very low-key camper van and tripped around New
+          Zealand before making my way back to school via Southeast Asia and
+          Europe.
+        </p>
+        <p>
+          After graduating I spent a few months in Brazil teaching English. From
+          there I hitchiked through Boliva, Peru, Ecuador, Colombia, Venezuela,
+          Chile, and Argentina before returning to the US. But I liked it so
+          much I came back for round 2 during the 2014 World Cup and stayed
+          about a year checking out the Brazilian coast, spending 2 months on
+          friend's sailboat in Panama, trekking through the Amazon, and visting
+          some out of this world locations like Chapada Diamantina and Lençois
+          Maranhenses.
+        </p>
+        <p>
+          Worked for three years as the Digital Content Editor of Park City
+          Magazine, specifically writing tourism-related articles taking photos,
+          and creating videos about Park City, Utah and further afield in Utah.
+          Check out some of that work{" "}
+          <a href="https://www.parkcitymag.com/search?query=michaela+wagner">
+            here
+          </a>
+          .
+        </p>
 
         <h2>Interests</h2>
         <p>
