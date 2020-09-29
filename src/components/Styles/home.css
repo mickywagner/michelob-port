@@ -1,0 +1,21 @@
+.home {
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../assets/IMG_8932.jpg");
+    background-size: cover;
+}
+
+.intro {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -40px;
+}
+
+.intro h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    letter-spacing: 10px;
+}
