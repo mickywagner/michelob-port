@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import Image from "../components/Image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -9,7 +10,7 @@ const SecondPage = () => (
     <SEO title="Page two" />
     <div className="about">
             <div className="me-photos">
-                
+               <img src="../images/me.jpeg" />
             </div>
             <div className="bio">
                 <h1>Hi! I'm Michaela</h1>
