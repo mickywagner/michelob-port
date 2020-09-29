@@ -5,7 +5,6 @@ import waterfalls from "../images/waterfalls.jpg"
 import snapshot from "../images/me.jpeg"
 import stones from "../images/IMG_8909.jpg"
 
-import Image from "../components/Image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "../components/Styles/about-css-module.css"
