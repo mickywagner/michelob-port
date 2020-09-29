@@ -10,7 +10,7 @@ const SecondPage = () => (
     <SEO title="Page two" />
     <div className="about">
             <div className="me-photos">
-               <img src="../images/me.jpeg" />
+              
             </div>
             <div className="bio">
                 <h1>Hi! I'm Michaela</h1>
@@ -37,7 +37,6 @@ const SecondPage = () => (
 
             </div>
         </div>
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
