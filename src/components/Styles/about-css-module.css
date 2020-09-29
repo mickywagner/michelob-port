@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     margin: 5% 10%;
+    line-height: 2rem;
 }
 
 .me-photos {
@@ -22,7 +23,7 @@ img {
     margin-top: 30px;
 }
 
-.bio h1 {
+.bio h1, .bio h2 {
     text-align: center;
     padding-bottom: 20px;
     border-bottom: 10px dotted rgb(76,119,170);
@@ -35,13 +36,17 @@ img {
     
 }
 
-p {
-    line-height: 2rem;
-}
 
 .bio ul {
-    list-style-type: circle;
+    list-style-type: none;
     flex-direction: column;
+    list-style-position: inside;
 }
 
-
+.bio .skills {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    list-style-type: disc;
+    font-size: 0.8rem;
+}
