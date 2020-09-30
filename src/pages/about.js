@@ -51,7 +51,7 @@ const SecondPage = () => {
 
   return (
     <Layout>
-      <SEO title="Page two" />
+      <SEO title="About" />
       <div className="about">
         <div className="me-photos">
      
