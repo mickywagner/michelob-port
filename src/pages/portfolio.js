@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "../components/Styles/portfolio-css-module.css"
-// import { getClass } from "../utils/getclass"
+import { getClass } from "../utils/getclass"
 
 const PortfolioPage = () => {
   const data = useStaticQuery(graphql`
@@ -18,19 +18,21 @@ const PortfolioPage = () => {
               fixed(width: 400) {
                 ...GatsbyImageSharpFixed
               }
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
         }
       }
   `) 
 
-  const images = data.images.nodes.map(image => <Img key={image.id} fixed={image.childImageSharp.fixed}></Img>)
+  const images = data.images.nodes.map((image, i) =><Img key={image.id} fixed={image.childImageSharp.fixed} className="image-grid"></Img>)
 
   return (
     <Layout>
       <SEO title="Portfolio" />
       <main className="photos">
-        <p>images</p>
          {images}
       </main>
     </Layout>
