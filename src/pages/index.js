@@ -8,7 +8,8 @@ console.log(styles)
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="home">
+    <div className="home"
+    >
             <div className="intro">
                 <h1>Michaela Wagner</h1>
                 <p>Traveller + Writer + Photographer/Videographer + Developer + Adventurer Extraordinaire</p>
