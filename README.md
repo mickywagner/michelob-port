@@ -1,3 +1,31 @@
+# Photo Portfolio Site
+
+<h3>Screenshots</h3>
+<img src="video.gif">
+
+<h3>About This Project</h3>
+<p>This is my first project I built with Gatsby. I wanted to make a website that displayed a lot of my photos for a contest (Michelob Chief Explorer). After trying a lot of things to reduce my images file sizes, which was all very 
+tedious, I read that the gastby-image solution might be a good idea and since this was primarily going to be a static
+website anyway and I already love working with React, I decided to try it out.  I will definitley be using it more 
+and exploring more of the features it has to offer.
+</p>
+<p>Live version <a href="https://michaela-michelob-portfolio.netlify.app/">here</a>.</p>
+
+
+<h3>Technical Sheet</h3>
+
+<strong>
+<ul>
+  <li>Javascript</li>
+  <li>React</li>
+  <li>Gatsby, gatsby-image</li>
+  <li>HTML 5, CSS 3</li>
+</ul>
+</strong>
+
+
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
