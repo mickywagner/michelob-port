@@ -12,6 +12,7 @@
     color: white;
     position: relative;
     top: -40px;
+    max-width: 80%;
 }
 
 .intro h1 {

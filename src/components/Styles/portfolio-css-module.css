@@ -1,7 +1,15 @@
 main.photos {
     display: grid;
     grid-gap: 2px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-flow: dense;
+}
+
+@media only screen and (max-width: 480px) {
+    main.photos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 

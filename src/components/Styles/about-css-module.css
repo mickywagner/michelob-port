@@ -14,12 +14,19 @@
 }
 
 
-
-img {
-    max-width: 250px;
+.me-photos img {
     margin: 10px;
-    object-fit: cover;
+    object-fit: contain;
 }
+
+.midPhoto {
+   margin-bottom: 30px;
+}
+
+.midPhoto img {
+    width: 80%;
+}
+
 
 .bio {
     margin-top: 30px;
@@ -51,4 +58,10 @@ img {
     -moz-columns: 3;
     list-style-type: disc;
     font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .me-photos {
+        flex-direction: column;
+    }
 }

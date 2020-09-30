@@ -11,11 +11,14 @@ import "../components/Styles/about-css-module.css"
 const SecondPage = () => {
   const data = useStaticQuery(graphql`
     query Image {
-    image: file(relativePath: {eq: "IMG_8909.jpg"}) {
+    image: file(relativePath: {eq: "IMG_5781.JPG"}) {
       id
       childImageSharp {
         fixed(width: 300) {
           ...GatsbyImageSharpFixed
+        }
+        fluid{
+          ...GatsbyImageSharpFluid
         }
       }
     }
@@ -35,6 +38,14 @@ const SecondPage = () => {
         }
       }
     }
+    image4: file(relativePath: {eq: "IMG_8909.jpg"}) {
+      id
+      childImageSharp {
+        fluid{
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
   }
   `)
 
@@ -46,7 +57,7 @@ const SecondPage = () => {
      
           <Img
             fixed={data.image.childImageSharp.fixed}
-            alt="Watching the sunset at the Great Salt Lake in Utah"
+            alt="Scarlett and Mitch rafting in Idaho"
           ></Img>
           <Img 
             fixed={data.image2.childImageSharp.fixed}
@@ -87,6 +98,13 @@ const SecondPage = () => {
             house so we can check out all the amazing places we haven't visited
             yet on wheels.
           </p>
+
+          <div className="midPhoto">
+          <Img
+            fluid={data.image4.childImageSharp.fluid}
+            alt="Dusk at the Great Salt Lake"
+          ></Img>
+          </div>
 
           <h2>Skills and Experiences</h2>
           <ul className="skills">
