@@ -14,7 +14,7 @@ const SecondPage = () => {
     image: file(relativePath: {eq: "IMG_8909.jpg"}) {
       id
       childImageSharp {
-        fixed(width: 200) {
+        fixed(width: 300) {
           ...GatsbyImageSharpFixed
         }
       }
@@ -22,7 +22,7 @@ const SecondPage = () => {
     image2: file(relativePath: {eq: "me.jpeg"}) {
       id
       childImageSharp {
-        fixed(width: 200) {
+        fixed(width: 300) {
           ...GatsbyImageSharpFixed
         }
       }
@@ -30,15 +30,13 @@ const SecondPage = () => {
     image3: file(relativePath: {eq: "waterfalls.jpg"}) {
       id
       childImageSharp {
-        fixed(width: 200) {
+        fixed(width: 300) {
           ...GatsbyImageSharpFixed
         }
       }
     }
   }
   `)
-
-  console.log(data)
 
   return (
     <Layout>
