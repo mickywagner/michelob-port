@@ -6,9 +6,10 @@
 <h3>About This Project</h3>
 <p>This is my first project I built with Gatsby. I wanted to make a website that displayed a lot of my photos for a contest (Michelob Chief Explorer). After trying a lot of things to reduce my images file sizes, which was all very 
 tedious, I read that the gastby-image solution might be a good idea and since this was primarily going to be a static
-website anyway and I already love working with React, I decided to try it out.  I will definitley be using it more 
-and exploring more of the features it has to offer.
+website anyway and I already love working with React, I decided to try it out. Wow, it made the loading times sooo much
+faster. I will definitley be using it more and exploring more of the features it has to offer. 
 </p>
+<p>Things I would like to add to this project => a lightbox for viewing the images close up</p>
 <p>Live version <a href="https://michaela-michelob-portfolio.netlify.app/">here</a>.</p>
 
 
